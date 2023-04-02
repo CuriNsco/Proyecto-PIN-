@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import './Style.scss';
+import  {Navbar} from './Componentes/Navbar/Navbar';
+import {Carruselprincipal}from './Componentes/PrimeraSeccion/Carruselprincipal';
+import { Fullwithtext } from './Componentes/SegundaSeccion/Fullwithtext';
+import { Slider } from './Componentes/TerceraSeccion/Slider';
+import { Acordion } from './Componentes/CuartaSeccion/Acordion';
+import { Formulario } from './Componentes/Quintaseccion/Formulario';
+import { Footer } from './Componentes/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Carruselprincipal/>
+      <header>
+      <Navbar/>
       </header>
+      <main>
+      <Fullwithtext/>
+      <Slider/> 
+      <Acordion/>
+      <Formulario/>
+      </main>
+      <footer>
+      <Footer/>
+      </footer>
     </div>
   );
 }
