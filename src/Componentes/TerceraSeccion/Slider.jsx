@@ -9,7 +9,7 @@ export const Slider = () => {
     <div class="carousel-item active">
       <img src="./productos-1.jpg" class="d-block w-100" alt="..."/>
       <div className="recuadro-slider" >
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h6>Sed ut perspiciatis</h6>
         <h5>Nemo Enim</h5>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -19,7 +19,7 @@ export const Slider = () => {
     <div class="carousel-item">
       <img src="./productos-2.jpeg" class="d-block w-100" alt="..."/>
       <div className="recuadro-slider">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h6>Sed ut perspiciatis</h6>
         <h5>Nemo Enim</h5>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -29,7 +29,7 @@ export const Slider = () => {
     <div class="carousel-item">
       <img src="./productos-3.webp" class="d-block w-100" alt="..."/>
       <div className="recuadro-slider">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h6>Sed ut perspiciatis</h6>
         <h5>Nemo Enim</h5>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>

@@ -13,18 +13,12 @@ function App() {
   return (
     <div className="App">
       <Carruselprincipal/>
-      <header>
       <Navbar/>
-      </header>
-      <main>
       <Fullwithtext/>
       <Slider/> 
       <Acordion/>
       <Formulario/>
-      </main>
-      <footer>
       <Footer/>
-      </footer>
     </div>
   );
 }

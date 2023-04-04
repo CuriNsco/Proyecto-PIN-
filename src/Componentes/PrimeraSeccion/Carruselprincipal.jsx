@@ -24,7 +24,7 @@ export const Carruselprincipal = () => {
     <div className='contenedor-texto'>
     <h1 className='titulo-principal'>Sed ut perspiciatis unde omnis iste natus</h1>
     <p className='subtitulo'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
-    <button className="btn btn-primary" id='boton-principal'>Leer mas</button>
+    <button className="btn btn-primary" id='boton-principal' href='#fulltextwith'>Leer mas</button>
     </div>
   </div>
 </div>

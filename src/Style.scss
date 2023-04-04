@@ -183,13 +183,11 @@ button{
         height: 55px;
         font-size: 39px;
         font-family: 'Poppins';
-        text-align: left;
     }
     h6{
         width: 137px;
         height: 21px;
         color: black;
-        text-align: left;
     }
     p{
         color: black;
@@ -362,24 +360,4 @@ img{
 }
 }
 @import "../node_modules/bootstrap/scss/functions";
-
-@media screen and (max-width:600px){
-    .carousel-inner{    /*contenedor principal del carrusel*/
-        width: 414px;
-        height: 844px;
-        position: relative;
-        .contenedor-texto{ /*div contendor del titulo subtitulo y boton*/
-            left: 0;
-        }
-        h1{
-            position: absolute;
-            font: normal normal 600 30px/30px Poppins;
-            letter-spacing: 0.67px;
-            color: red;
-        }
-    img{
-        width: 390px;
-    height: 844px;
-    }
-    }
-}
+@import 'Mediaquery.scss';
