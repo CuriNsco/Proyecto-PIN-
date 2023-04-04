@@ -1,15 +1,15 @@
-@media screen and (max-width:530px){
+
+@media screen and (max-width:500px){
                                             /*navbar*/
 #navbar-principal{ /*fondo y contenedor principal de la navbar*/
-    background-color: transparent !important;
     position: absolute;
     width: 414px;
     height: 96px;
     top: 20px;
-    opacity: 1;
+    opacity: 100;
 }
 .container-fluid{
-    background-color: none;
+    background-color: transparent;
     width: 414px;
     height: 96px;
 .nav-item{
@@ -19,24 +19,25 @@
         text-align: center;
         font: normal normal medium 16px/21px 'Roboto';
         letter-spacing: 0px;
-        padding-left: 35px;
+        padding-left: 10px;
+        padding-top: 80px;
+        left: 0px;
     }
 }
 }
 #navbarNav{
-    background-color: none;
+    background-color: grey;
+    border-radius: 30px;
+    padding-top: 100px;
+    height: 820px;
 img{ /*logotipo de la navbar*/
     position: absolute;
-    left: 100px;
+    background-color: transparent;
+    left: 115px;
+    top: 90px;
+    width:200px;
 }
-img:hover{
-    zoom: 105%;
 }
-}
-
-
-
-
 
 
                                         /*primera seccion*/
@@ -199,6 +200,22 @@ img:hover{
     }
 }
 }
+.carousel-control-prev {     /*boton anterior del carrusel*/
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    top: 457.5px;
+    left: 12px;
+    border-radius: 50%;
+}
+.carousel-control-next{       /*boton sigueinte del carrusel*/
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    top: 457.5px;
+    left: 380px;
+    border-radius: 50%;
+}
 }
 
 
@@ -273,7 +290,7 @@ img:hover{
 
 h1{
     position: relative;
-    top: 120px;
+    top: 90px;
     left: 64.5px;
     width: 285px;
     height: 100px;
