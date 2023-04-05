@@ -1,14 +1,14 @@
 @media screen and (max-width:376px){
     #navbar-principal{ /*fondo y contenedor principal de la navbar*/
         position: absolute;
-        width: 400px;
+        width: 375px;
         height: 96px;
         top: 20px;
         opacity: 100;
     }
     .container-fluid{
         background-color: transparent;
-        width: 400px;
+        width: 375px;
         height: 96px;
     .nav-item{
         left: 0px;
@@ -17,7 +17,7 @@
             text-align: center;
             font: normal normal medium 16px/21px 'Roboto';
             letter-spacing: 0px;
-            padding-left: 10px;
+            padding-left: 5px;
             padding-top: 60px;
             left: 0px;
             color: white;
@@ -32,9 +32,9 @@
     img{ /*logotipo de la navbar*/
         position: absolute;
         background-color: transparent;
-        left: 115px;
+        left: 105px;
         top: 90px;
-        width:200px;
+        width:170px;
     }
     }
     
@@ -43,13 +43,13 @@
     
     
         .carousel-inner{    /*contenedor principal del carrusel*/
-            width: 400px;
+            width: 375px;
             height: 736px;
             position: relative;
             .contenedor-texto{ /*div contendor del titulo subtitulo y boton*/
                 left: 0;
-                top: 180px;
-                width: 400px;
+                top: 130px;
+                width: 375px;
                 text-align: center;
                 h1{
                     font: normal 600 42px/60px Poppins;
@@ -60,18 +60,18 @@
                 }
                 p{
                     font: normal 800 20px Poppins;
-                    top: 200px;
+                    top: 270px;
                     color: white;
-                    left: 30px;
+                    left: 15px;
                 }
                 button{
-                    top:400px;
-                    left: 130px;
+                    top:450px;
+                    left: 110px;
                 }
             }
                 img{
-                    width: 390px;
-                    height: 915px;
+                    width: 375px;
+                    height: 736px;
                     object-fit: cover;
                 }
                 .carousel-indicators{ /*botones "puntitos" del carrusel*/
@@ -87,7 +87,7 @@
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
-                    left: 180px;
+                    left: 160px;
                     top: 200px;
                 }
                 }
@@ -99,11 +99,11 @@
                                 
     
     .segundaseccion{
-        width: 400px;
+        width: 375px;
         height: 736px;
         position: relative;
         h1{
-            width: 400px;
+            width: 375px;
             position: absolute;
             top: 50px;
             left: 0;
@@ -118,7 +118,7 @@
         p{
             position: absolute;
             top: 311px;
-            left: 30px;
+            left: 15px;
             width: 350px;
             height: 197px;
             text-align: center;
@@ -128,7 +128,7 @@
             background-color: #A22121;
             top: 706px;
             left: 0px;
-            width: 400px;
+            width: 375px;
             height: 32px;
         }
     }
@@ -146,7 +146,7 @@
         background-color: #Eed8c6;
         top: 1474px;
         left: 0px;
-        width: 400px;
+        width: 375px;
         height: 736px;
         position: absolute;
     
@@ -154,20 +154,20 @@
         background-color: #D2ab8f;
         top: 665px;
         left: 0;
-        width: 400px;
+        width: 375px;
         height: 250px;
         position: absolute;
     }
     
     .carousel-inner{      /*contenedor del carrusel el que da tamano y ubicacion a la imagen*/
-            width: 400px;
+            width: 375px;
             height: 736px;
             top: 0px;
             left: 0px;
             position: relative;
     .recuadro-slider{     /*contenedor del texto y titulo que va encima de cada foto*/
         position: absolute;
-        width: 400px;
+        width: 375px;
         height: 414px;
         left: 0px;
         top:80px;
@@ -179,18 +179,18 @@
         }
         h5{
             color: black;
-            width: 400px;
+            width: 375px;
             height: 55px;
             font-family: 'Poppins';
         }
         h6{
-            width: 400px;
+            width: 375px;
             height: 21px;
             color: black;
         }
         p{
             color: black;
-            width: 400px;
+            width: 375px;
             height: 80px;
             letter-spacing: 0.22px;
             text-align: center;
@@ -212,7 +212,7 @@
         width: 20px;
         height: 20px;
         top: 368px;
-        left: 380px;
+        left: 340px;
         border-radius: 50%;
     }
     }
@@ -228,13 +228,13 @@
     .cuartaseccion{      /*contenedor del fondo, color de fondo e imagen*/
         position: absolute;
         top: 2210px;
-        width: 400px;
+        width: 375px;
         height: 736px;
         background-color:#Eed8c6;
         img{
             top: 615px;
             left: 0px;
-            width: 400px;
+            width: 375px;
             height: 300px;
             position: relative;
             object-fit:cover;
@@ -244,7 +244,7 @@
     #accordionExample{ /* acordion  IMPORTANTE REVISAR LA UBICACION */
         top: 140px;
         left: 10px;
-        width: 395px;
+        width: 350px;
         height: 184px;
         position: absolute;
         button{
@@ -266,7 +266,7 @@
         background-color: #Eed8c6;
         top: 2945px;
         left: 0px;
-        width: 400px;
+        width: 375px;
         height: 736px;
         position: absolute;
     
@@ -275,14 +275,14 @@
             position: absolute;
             top: 0px;
             left: 0px;
-            width: 400px;
+            width: 375px;
             height: 200px;
         }
         img{   
             position: absolute;
             top: 0px;
             left: 0px;
-            width: 400px;
+            width: 375px;
             height: 270px;
             opacity: 1%;
         }
@@ -290,7 +290,7 @@
     h1{
         position: relative;
         top: 50px;
-        left: 64.5px;
+        left: 45px;
         width: 285px;
         height: 100px;
         font: normal normal 600 39px/45px Poppins;
@@ -301,12 +301,12 @@
         position: absolute;
         top: 250px;
         left: 20px;
-        width: 375px;
+        width: 330px;
         height: 33px;
     
         button{
         position: relative;
-        left: 110px;
+        left: 90px;
         top: 60px;
         width: 144px;
         height: 48px;
@@ -347,20 +347,20 @@
         position: absolute;
         top: 3680px;
         left: 0px;
-        width: 400px;
+        width: 375px;
         height: 96px;
         background-color: #343434;
     h6{
         color: #DCE1DA;
         position: relative;
         top: 60px;
-        left: 105px;
+        left: 90px;
         width: 195px;
         height: 21px;
     }
     img{
         position: absolute;
-        left: 160px;
+        left: 150px;
         width: 86px;
         height: 20px;
         top: 25px;
