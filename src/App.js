@@ -8,6 +8,7 @@ import { Slider } from './Componentes/TerceraSeccion/Slider';
 import { Acordion } from './Componentes/CuartaSeccion/Acordion';
 import { Formulario } from './Componentes/Quintaseccion/Formulario';
 import { Footer } from './Componentes/Footer/Footer';
+import DateContact from './Componentes/Quintaseccion';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Acordion/>
       <Formulario/>
       <Footer/>
+      <DateContact />
     </div>
   );
 }
