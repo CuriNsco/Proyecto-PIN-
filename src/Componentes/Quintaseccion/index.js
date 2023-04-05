@@ -25,7 +25,7 @@ contactInfo.message);
         console.log("La Info ingresada es:" , contactInfo)
         axios({
             method: "POST",
-            url:"http://localhost:8080/formulariopin/public/api/insertContacto?",
+            url:"https://pinnuevobackend.up.railway.app/api/insertContacto",
             data:contactInfo
 
         }).then(
@@ -60,12 +60,7 @@ contactInfo.message);
             Verifique el error porque no pudimos procesar el registro de registro de contacto
             </div>
             }
-            
-            
-            
-            
-            
-//         </section>
+                  </section>
      )
 };
 

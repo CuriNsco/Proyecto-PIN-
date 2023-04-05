@@ -304,7 +304,7 @@ h1{
 }
 }
 
-#floatingTextarea2{ /* area de comentarios*/
+#message{ /* area de comentarios*/
     height: 73px;
     border-top: none;
     border-left: none;
@@ -314,7 +314,7 @@ h1{
     border-radius: 0px;
 }
 
-#floatingInput{
+#name, #email, #phone{
     border-top: none;
     border-left: none;
     border-right: none;
