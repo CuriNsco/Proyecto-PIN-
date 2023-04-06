@@ -12,7 +12,7 @@ export const Formulario = (props) => {
                 <input onChange={props.handleChange} type="text" className="form-control" id="name" placeholder="name"/>
                     <label for="floatingInput">Name</label>
             </div>
-
+            {/* value={props.contactInfo.name} PONIENDO ESTO EN CADA INPUT O EN UNO, LA PAGINA DESAPARECE POR COMPLETO, DESCONOCEMOS EL ERROR*/}
 
             <div className="form-floating mb-3">
                 <input onChange={props.handleChange} type="email" className="form-control" id="email" placeholder="name@example.com" required />
@@ -32,7 +32,7 @@ export const Formulario = (props) => {
             </div>
 
 
-            <button className="btn btn-primary" type="submit" onSubmit={props.handleSubmit} >Send</button>
+            <button className="btn btn-primary" type="submit" >Send</button>
             </form>
         </div>
     </div>

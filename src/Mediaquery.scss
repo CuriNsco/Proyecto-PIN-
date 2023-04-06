@@ -1,5 +1,5 @@
 
-@media screen and (max-width:500px){
+@media screen and (max-width:450px){
                                             /*navbar*/
 #navbar-principal{ /*fondo y contenedor principal de la navbar*/
     position: absolute;
@@ -339,13 +339,15 @@ h1{
 }
 
 #alert-success{
-    top:2580px;
+    position: absolute;
+    top:4450px;
     left: 20px;
     width: 370px;
     text-align: center;
 }
 #alert-danger{
-    top:2580px;
+    position: absolute;
+    top:4450px;
     left: 20px;
     width: 370px;
     text-align: center;
@@ -358,8 +360,8 @@ h1{
 
 
 .footer{
-    position: absolute;
-    top: 4479px;
+    position: relative;
+    top: 2745px;
     left: 0px;
     width: 414px;
     height: 96px;
