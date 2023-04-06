@@ -42,8 +42,7 @@ contactInfo.message);
                 }
                   
             )
-    
-    }
+     }
 
     return (
          <section id="contact">
@@ -51,13 +50,13 @@ contactInfo.message);
             <Formulario handleChange={handleChange} handleSubmit={handleSubmit} contactInfo=
 {contactInfo} disableEnviar={disableEnviar}/>
             { success &&
-            <div class="alert alert-success" role="alert">
+            <div class="alert alert-success" role="alert" id='alert-success'>
             Se registraron los datos y se envio el mail correctamente
             </div>
             }
             { error &&
-            <div class="alert alert-danger" role="alert">
-            Verifique el error porque no pudimos procesar el registro de registro de contacto
+            <div class="alert alert-danger" role="alert" id='alert-danger'>
+            Verifique el error porque no pudimos procesar el registro de contacto
             </div>
             }
                   </section>
