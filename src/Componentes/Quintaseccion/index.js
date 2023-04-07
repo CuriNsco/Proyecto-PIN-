@@ -2,7 +2,7 @@ import { Formulario } from "./Formulario";
 import axios from "axios";
 import { useState } from "react";
 import Swal from "sweetalert2";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 function DateContact() {
   const [contactInfo, setInfoContact] = useState({
