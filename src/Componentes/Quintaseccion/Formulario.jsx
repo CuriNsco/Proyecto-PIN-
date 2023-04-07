@@ -58,7 +58,7 @@ export const Formulario = (props) => {
             <label for="floatingTextarea2">Message</label>
           </div>
 
-          <button className="btn btn-primary" type="submit">
+          <button className="btn btn-primary" type="submit" disabled={props.disableEnviar}>
             Send
           </button>
         </form>
