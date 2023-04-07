@@ -26,8 +26,7 @@ contactInfo.message);
         axios({
             method: "POST",
             url:"https://pinnuevobackend.up.railway.app/api/insertContacto",
-            data:contactInfo
-
+            data:contactInfo,
         }).then(
             response => {
                 setSuccess(true)
@@ -47,8 +46,7 @@ contactInfo.message);
     return (
          <section id="contact">
             <h1>Contactanos</h1>
-            <Formulario handleChange={handleChange} handleSubmit={handleSubmit} contactInfo=
-{contactInfo} disableEnviar={disableEnviar}/>
+            <Formulario handleChange={handleChange} handleSubmit={handleSubmit} contactInfo={contactInfo} disableEnviar={disableEnviar}/>
             { success &&
             <div class="alert alert-success" role="alert" id='alert-success'>
             Se registraron los datos y se envio el mail correctamente
@@ -59,7 +57,7 @@ contactInfo.message);
             Verifique el error porque no pudimos procesar el registro de contacto
             </div>
             }
-                  </section>
+        </section>
      )
 };
 
