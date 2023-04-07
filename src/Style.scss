@@ -30,6 +30,7 @@ html{   /*smooth scroll*/
         font: normal normal medium 16px/21px 'Roboto';
         letter-spacing: 0px;
         padding-left: 35px;
+        color: white;
     }
 }
 }
@@ -71,14 +72,20 @@ p{
     width: 343px;
     height: 42px;
 }
-button{
+a{
     position: absolute;
     background: #A22121 0% 0% no-repeat padding-box;
     border-radius: 25px;
     border-style: none;
     top: 220px;
+    padding-top: 10px;
     width: 144px;
     height: 48px;
+    text-align: center;
+}
+button{
+    position: relative;
+    top: 200px;
 }
 }
 
