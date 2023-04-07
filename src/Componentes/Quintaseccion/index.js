@@ -37,7 +37,7 @@ function DateContact() {
     console.log("La Info ingresada es:", contactInfo);
     axios({
       method: "POST",
-      url: "https://pinnuevobackend.up.railway.app/api/insertContactodasd",
+      url: "https://pinnuevobackend.up.railway.app/api/insertContacto",
       data: contactInfo,
     })
       .then((response) => {
