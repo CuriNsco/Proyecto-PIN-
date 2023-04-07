@@ -26,6 +26,7 @@ function DateContact() {
     const propiedad = event.target.id;
     //console.log(valorPropiedad,propiedad)
 
+
     setInfoContact({ ...contactInfo, [propiedad]: valorPropiedad });
   };
   
@@ -73,7 +74,7 @@ function DateContact() {
         </div>
       )}
     </section>
-  );
-}
+  )
+};
 
 export default DateContact;
